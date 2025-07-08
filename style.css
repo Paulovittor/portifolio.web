@@ -73,8 +73,10 @@
     padding-right: 8px;
 }
 
-.about-me-container {
+.about-me-content {
     display: flex; 
+    align-items: center;
+    margin-top: 50px;
 }
 
 .about-me-content img {
@@ -84,6 +86,8 @@
 
 .about-me-content p {
     color: white;
+    line-height: 2rem;
+    margin-left: 50px;
 }
 
 /*========== UTILITIES =====================================================================================================*/
