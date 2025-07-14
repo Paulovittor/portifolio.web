@@ -11,6 +11,8 @@
     font-size: 0.9rem;
   }
 
+  /*SOBRE MIM*/
+
   .about-me-content {
     flex-direction: column;
   }
@@ -21,12 +23,107 @@
   }
 
   .about-me-content p {
-    font-size: 0.8rem;
-    margin: 0;
+    font-size: 0.875rem;
+    margin-left: 0;
+    margin-top: 15px;
   }
+
+  /*HABILIDADES*/
 
   .skills-content {
     flex-direction: column;
+    margin-top: 40px;
+  }
+  .skills-content .skill-item:nth-child(2) {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .skills-content .skill-item {
+    margin-bottom: 40px;
+  }
+
+  .skill-item {
+    padding: 30px;
+  }
+
+  .skill-item img {
+    width: 60px;
+    height: 60px;
+  }
+
+  .skill-item p {
+    font-size: 0.8rem;
+  }
+
+  /*PROJETOS*/
+
+  .projects-content {
+    margin-top: 40px;
+  }
+
+  .project-item {
+    flex-direction: column;
+  }
+
+  /*Invertendo os itens*/
+  .projects-content .project-item:nth-child(2) > .project-item-image-2,
+  .projects-content .project-item:nth-child(4) > .project-item-image-4 {
+    order: 1;
+    margin-left: 0;
+  }
+  .projects-content .project-item:nth-child(2) > .project-text,
+  .projects-content .project-item:nth-child(4) > .project-text {
+    order: 2;
+    text-align: center;
+  }
+
+  .projects-content .project-item:nth-child(2),
+  .projects-content .project-item:nth-child(4) {
+    justify-content: center;
+  }
+
+  .project-text {
+    margin-left: 0;
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .project-text p {
+    line-height: 29px;
+    text-align: justify;
+    font-size: 0.875rem;
+  }
+
+  .project-text h3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
+
+  /*FORMULÁRIO*/
+  .contact-form {
+    margin-top: 40px;
+  }
+
+  /*FOOTER*/
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .social-itens a:last-child {
+    margin: 0;
+  }
+
+  .social-itens {
+    margin-bottom: 15px;
+    font-size: 15px;
+  }
+
+  .footer-container p {
+    font-size: 16px;
   }
 
   /*UTILITIES*/
@@ -34,12 +131,10 @@
     font-size: 30px;
   }
 
-  .section-content {
+  .section-container {
     margin-left: 25px;
     margin-right: 25px;
-  }
-
-  .section-container {
     padding: 30px;
+    margin-left: 0;
   }
 }
