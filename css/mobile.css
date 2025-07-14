@@ -1,0 +1,45 @@
+@media (max-width: 1024px) {
+  .navbar-container {
+    display: none;
+  }
+
+  .showcase-container > h1 {
+    font-size: 2.6rem;
+  }
+
+  .showcase-container > p {
+    font-size: 0.9rem;
+  }
+
+  .about-me-content {
+    flex-direction: column;
+  }
+
+  .about-me-content img {
+    width: 200px;
+    height: 200px;
+  }
+
+  .about-me-content p {
+    font-size: 0.8rem;
+    margin: 0;
+  }
+
+  .skills-content {
+    flex-direction: column;
+  }
+
+  /*UTILITIES*/
+  .section-title {
+    font-size: 30px;
+  }
+
+  .section-content {
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+
+  .section-container {
+    padding: 30px;
+  }
+}
